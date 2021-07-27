@@ -13,14 +13,14 @@ function enviarScript(scriptText){
     
             const event = new InputEvent('input', { bubbles: true });
     
-            const textbox = document.querySelector('._1JAUF._2x4bz ._2_1wd');
+            const textbox = document.querySelector('._1UWac._1LbR4 ._13NKt');
     
             textbox.textContent = lines[i];
     
             textbox.dispatchEvent(event);
             
 
-            document.querySelector("button._1E0Oz").click();
+            document.querySelector("button._4sWnG").click();
 
         }
         i++;
